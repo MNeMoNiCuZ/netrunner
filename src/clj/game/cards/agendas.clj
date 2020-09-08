@@ -1707,3 +1707,12 @@
                                       (not (has-subtype? target "Virtual"))
                                       (not (:facedown (second targets)))))
                        :value 1}]})
+			  
+(define-card "Prize Pool"
+  (let [ability {:msg "gain 1 [Credits]"
+                 :label "Gain 1 [Credits] (start of turn)"
+                 :once :per-turn
+                 :effect (effect (gain-credits 1))}]
+    {:derezzed-events [corp-rez-toast]
+     :events [(assoc ability :event :corp-turn-begins)]
+     :abilities [ability]}))
