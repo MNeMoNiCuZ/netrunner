@@ -324,7 +324,7 @@
 
          [:section
           [:h3  "Card backs"]
-          (doall (for [option [{:name "NISEI" :ref "nisei"}
+          (doall (for [option [{:name "MNEMIC" :ref "mnemic"}
                                {:name "FFG" :ref "ffg"}]]
                    [:div.radio {:key (:name option)}
                     [:label [:input {:type "radio"
