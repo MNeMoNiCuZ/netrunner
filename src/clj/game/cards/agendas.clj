@@ -1717,9 +1717,15 @@
      :events [(assoc ability :event :corp-turn-begins)]
      :abilities [ability]}))
 
-     (define-card "Abandoned Moon Warehouse"
-      {:abilities [{:cost [:click 3]
-      :choices {:card #(and (ice? %)
-                            (not (:rezzed %)))}
-      :label "Rez a piece of ice, ignoring all rez costs" :msg (msg "rez " (:title target) " at no rez cost")
-      :effect (effect (rez target {:ignore-cost :rez-costs}))}]})
+(define-card "Abandoned Moon Warehouse"
+  {:abilities [{:cost [:click 3]
+                :choices {:card #(not (:rezzed %))}
+                :label "Rez a card at no cost" :msg (msg "rez " (:title target) " at no cost")
+                :effect (effect (rez target {:ignore-cost :all-costs}))}]})
+
+
+;      {:abilities [{:cost [:click 3]
+;      :choices {:card #(and (ice? %)
+;                            (not (:rezzed %)))}
+;      :label "Rez a piece of ice, ignoring all rez costs" :msg (msg "rez " (:title target) " at no rez cost")
+;      :effect (effect (rez target {:ignore-cost :rez-costs}))}]})
