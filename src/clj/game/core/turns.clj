@@ -11,7 +11,7 @@
     :full - implemented fully
     msg - string with implementation notes"
   [card]
-  (when-let [cdef (card-def card)]
+(when-let [cdef (not-empty (card-def card))]
     ;; Card is defined - hence implemented
     (if-let [impl (:implementation cdef)]
       (if (:recurring cdef) (str impl ". Recurring credits usage not restricted") impl)
