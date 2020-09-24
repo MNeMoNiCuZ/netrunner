@@ -1716,3 +1716,10 @@
     {:derezzed-events [corp-rez-toast]
      :events [(assoc ability :event :corp-turn-begins)]
      :abilities [ability]}))
+
+     (define-card "Abandoned Moon Warehouse"
+      {:abilities [{:cost [:click 3]
+      :choices {:card #(and (ice? %)
+                            (not (:rezzed %))}
+      :label "Rez a piece of ice, ignoring all rez costs" :msg (msg "rez " (:title target) " at no cost")
+      :effect (effect (rez target {:ignore-cost :rez-costs}))}]})
