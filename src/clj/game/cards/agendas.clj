@@ -1720,7 +1720,7 @@
 (define-card "Abandoned Moon Warehouse"
   {:abilities [{:cost [:click 3]
                 :choices {:card #(not (:rezzed %))}
-                :label "Rez a card at no cost" :msg (msg "rez " (:title target) " at no cost")
+                :label "Rez a card at no rez cost" :msg (msg "rez " (:title target) " at no rez cost")
                 :effect (effect (rez target {:ignore-cost :all-costs}))}]})
 
 
