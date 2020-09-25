@@ -503,4 +503,125 @@
   "NBN" ["You're looking for the wrong person in all the wrong places. Keep looking."]
   "Weyland"
   ["Now, these people don't know how to play fair. And they're bad losers, at that."]}
- "Wyvern: Chemically Enhanced" {"Default" ["Burning cortex? There's a pill for that."]}}
+ "Wyvern: Chemically Enhanced" {"Default" ["Burning cortex? There's a pill for that."]}
+ 
+ "“Lloco“ Lloyd: Licenced Neurosurgeon"
+ {"Default" ["“It takes one to know one.“"]}
+ 
+ "A. Maverick: Net Caster"
+ {"Default" ["How you doing, eh?"]}
+ 
+ "Abigail: Life Teacher"
+ {"Default" ["Math geek!"]}
+ 
+  "Arjun: The Purifier"
+ {"Default" ["“Now where did I put that black box...“"]}
+ 
+  "Brandt: Security Consultant"
+ {"Default" ["“I'll fix it tomorrow.“"]}
+ 
+  "Britney: Teaching Life"
+ {"Default" ["Book afficionado!"]}
+ 
+  "Happy Gohum: Super Scrappy!"
+ {"Default" ["“What a waste!“ – Words never uttered by Happy."]}
+ 
+  "Kyoko “Nikita“ Himiya: Schizoid Panic"
+ {"Default" ["Twice connected, once removed."]}
+ 
+  "Tara Alegre: Enraged and Engaged"
+ {"Default" ["Run!"]}
+ 
+  "Katia “Levsha“: Crafty and Resourceful"
+ {"Default" ["“We are poor people, and you made us.“"]}
+ 
+  "Darell Voight: Snitch"
+ {"Default" ["“Who's a sell-out?“"]}
+ 
+  "Himiya “Hawkin“ Kyoko: Criminally Insane"
+ {"Default" ["Once connected, twice removed."]}
+ 
+  "Jasper Johnston: Jazz'HNDZ"
+ {"Default" ["“No way you can touch this!“"]}
+ 
+  "Jiao Wun: Fuelled by Diesel™"
+ {"Default" ["“See'ya on the flipside!“"]}
+ 
+  "Jill Jackson: Cyberscout"
+ {"Default" ["“Just a quickie peek, ok?“"]}
+ 
+  "Karla Maille: “Mad-dog-Milly“"
+ {"Default" ["Woof Woof corpo asshole!"]}
+ 
+  "Phoebe Sabine: @BineBae<3"
+ {"Default" ["“Smile for the cameras!“"]}
+ 
+  "Quela Tameron: 'QuTie'"
+ {"Default" ["Looks can be deceiving!"]}
+ 
+  "Regine Adler: Career Climber"
+ {"Default" ["“It was a pleasure working with you!“"]}
+ 
+  "Ripley Bukhari: Ripper Queen"
+ {"Default" ["Let's see what we get this time."]}
+ 
+  "Aela Bonson: Meka"
+ {"Default" ["“Let's go already!“"]}
+ 
+  "Aesop: Entrepreneur"
+ {"Default" ["Whaddya buyin'?"]}
+ 
+  "Clyde d'Acre: Young Lord"
+ {"Default" ["“What'chu lookin'at pleb?“"]}
+ 
+  "Fae Foxwell: Connected With Style"
+ {"Default" ["“See you at the dancefloor!“"]}
+ 
+  "Jay “Vironic“: Song In Your Head"
+ {"Default" ["Stuck on repeat."]}
+ 
+  "Kon Kutaragu: Hardware Guru"
+ {"Default" ["“Improving system response changes the relationship between computers and humans.“"]}
+ 
+  "Lynna Mattix: Prepper Prepper"
+ {"Default" ["“Prepare for the worst.“"]}
+ 
+  "Newton Wynn: Neatness Maketh Man"
+ {"Default" ["“I don't have time for this.“"]}
+ 
+  "Robyn: Roulette Revenant"
+ {"Default" ["Plug in and pull the lever."]}
+ 
+  "Toby Franke: The Duke"
+ {"Default" ["“Now you see me, now you don't!“"]}
+ 
+  "Braydon Silver: Bargain Hunter"
+ {"Default" ["You can't catch what you can't see!"]}
+  
+  "Joe Lawrence: Spendthrift"
+ {"Default" ["Making the most of life."]}
+ 
+  "Palhaçadas Vazio: Unexpectedly Magnificent!"
+ {"Default" ["Many flavors of crazy!"]}
+
+  "Adam: Consistent Hacker"
+ {"Default" ["What comes around, goes around."]}
+ 
+  "Adam: Ostracizing Hacker"
+ {"Default" ["I have chosen my side, have you?"]}
+  
+  "Apex: Fragile Mind"
+ {"Default" ["FEAR NOTHING"]}
+ 
+  "Apex: Public Predator"
+ {"Default" ["NOTHING TO HIDE"]}
+ 
+  "Apex: Vengeance"
+ {"Default" ["YOU SHALL BE FOILED"]}
+  
+  "Sunny Lebeau: Investigator"
+ {"Default" ["“Let's see what we can expose.“"]}
+ 
+  "Sunny Lebeau: Executively Connected"
+ {"Default" ["It's about who you know. And when."]} 
+ }
