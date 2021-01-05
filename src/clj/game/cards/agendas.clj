@@ -1719,7 +1719,7 @@
 
 (define-card "Abandoned Moon Warehouse"
   {:abilities [{:cost [:click 3]
-                :choices {:card #(not (:rezzed %))}
+                ;:choices {:card #(not (:rezzed %))}
                 :label "Rez a card at no rez cost" :msg (msg "rez " (:title target) " at no rez cost")
                 :effect (effect (rez target {:ignore-cost :all-costs}))}]})
 
@@ -1729,3 +1729,8 @@
 ;                            (not (:rezzed %)))}
 ;      :label "Rez a piece of ice, ignoring all rez costs" :msg (msg "rez " (:title target) " at no rez cost")
 ;      :effect (effect (rez target {:ignore-cost :rez-costs}))}]})
+
+;(define-card "Government Contracts"
+;  {:abilities [{:cost [:click 2]
+;                :effect (effect (gain-credits 4))
+;                :msg "gain 4 [Credits]"}]})
